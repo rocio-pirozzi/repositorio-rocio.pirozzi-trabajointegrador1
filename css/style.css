@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+
+}
+
+header {
+    background-color:#353a40;
+    height: 3cm;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    opacity: 100%;
+   
+}
+
+.h2nombrepagina {
+    padding: 20px;
+    color: white;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#a1 {
+    color: green;
+    padding-left: 5px;
+}
+
+.link1 {
+   padding: 10px;
+}
+
+nav {
+    padding: 20px;
+}
+    
+
+.d3 {
+    
+    width: 100vw;
+    height: 800px;
+    display: flex; 
+    background-blend-mode: darken;
+    background: url(/imag/ba1.jpg) ;
+    filter: brightness(20%);
+    
+
+}
+
+.contenedor {
+ position: relative;
+  text-align: center;
+  color: white;
+  object-fit: fill;
+   
+}
+
+.contenedorcaja {
+    width:  1920px;
+    height:600px ;
+    justify-content: right;
+
+    
+}
+#imagba {
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    object-fit: cover;
+    padding: 0px;
+    filter: brightness(30%);
+   
+   
+}
+.texto {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 16cm;
+  justify-content: right;
+  text-align: right;
+}
+.botones {
+    padding-right: 0cm;
+}
+.btntrasparente {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.btnverde {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin-right: 0px;
+    border-color:green;
+    
+}
+.encabezado2 {
+   text-align: center;
+   padding: 0px;
+}
+ 
+#h21 {
+    padding: 0px;
+}
+.tarjeta {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    
+    
+
+}
+
+.tarjetaperfil {
+    width: 400px;
+    border: solid 1px lightgray;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+
+.imagenperfil {
+
+object-fit: fill;
+width: 400px;
+height: 400px;
+}
+
+.bamarillo {
+    background-color: #ecb922;
+    border: none;
+    border-radius: 5px;
+}
+
+.bceleste {
+    background-color: #32a1b4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.bgris {
+    background-color: #6c757e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.brojo {
+    background-color: #dd3546;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.tagstarjetas{
+    padding: 15px;
+}
+#imagperf1 {
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#imagperf2 {
+    width: 400px;
+}
+#imagperf3 {
+    width: 400px;
+}
+ .tarjetanombre {
+    padding: 10px;
+    padding-left: 10px;
+
+ }
+
+ .h2tarjeta {
+    padding: 20px;
+ }
+
+ .ptarjeta {
+    padding: 10px;
+ }
+
+.imageninfo {
+    display: flex;
+    height: fit-content;
+   
+}
+
+.caja {
+    background-color: #353a40;
+    color: white;
+    float: right;
+    width: 50%;
+    height: 14cm;
+    border: solid 1px white;
+    padding: 15px;
+    
+}
+.imagplaya {
+    width: 50%;
+    height: 14cm;
+   
+}
+
+#boton3 {
+    background-color: #353a40;
+    border: solid white 1px;
+    color: white;
+    border-radius: 5px;
+}
+
+.encabezado3 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+ }
+  
+ #h23 {
+     padding: 0px;
+ }
+
+ form {
+    justify-content: center;
+    gap: 30px;
+    width: 800px;
+    margin: 0 auto; 
+
+ }
+
+ 
+.primfila {
+    display: flex;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 800px;
+    font-size: 200%;
+    border-radius: 5px;
+    color: #353a40;
+}
+
+#fnnombre {
+    width: 385px;
+}
+
+#fapellido {
+    width: 385px;
+    margin-left: 30px;
+}
+
+#botonenvio {
+    width: 800px;
+    background-color: #96c93e;
+    color: aliceblue;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.navegadorbottom{
+    width: 1920px;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+.navabajo {
+    background: rgb(29,55,68);
+    background: linear-gradient(90deg, rgba(29,55,68,1) 0%, rgba(29,70,92,1) 35%, rgba(30,83,114,1) 100%);
+    color: white;
+    justify-content: center;
+    height: 80px;
+    width: 1920px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.link2 {
+    padding: 20px;
+    justify-content: center;
+    
+}
